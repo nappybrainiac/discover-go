@@ -16,9 +16,9 @@ func main() {
 
   //Is randomNumber greater than 50?
   if randomNumber > 50 {
-    fmt.Println("my random number is", randomNumber, "and is greater than 50")
+    fmt.Printf("my random number is %d and is greater than 50\n", randomNumber)
   } else {
-    fmt.Println("my random number is", randomNumber, "and is equal to or less than 50")
+    fmt.Println("my random number is %d and is equal to or less than 50\n", randomNumber)
   }
 
 
@@ -26,7 +26,7 @@ func main() {
 
   //Is the string school equal to Holberton School?
   if school == "Holberton School" {
-    fmt.Println("I am a student of the", school)
+    fmt.Printf("I am a student of the %s\n", school)
   }
 
   //Declaring boolean values
