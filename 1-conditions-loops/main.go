@@ -18,7 +18,7 @@ func main() {
   if randomNumber > 50 {
     fmt.Printf("my random number is %d and is greater than 50\n", randomNumber)
   } else {
-    fmt.Println("my random number is %d and is equal to or less than 50\n", randomNumber)
+    fmt.Printf("my random number is %d and is equal to or less than 50\n", randomNumber)
   }
 
 
